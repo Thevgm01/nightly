@@ -17,7 +17,7 @@ body {
     color: #fff;
 
     /* font-family: 'your font' */
-    font-family: 'fira code';
+    font-family: 'goodbye despair';
 }
 
 .content {
@@ -32,10 +32,27 @@ body {
     text-align: center;
 }
 
+#timeContainer {
+    overflow: hidden;
+    position: relative;
+}
+
 #time {
+    float: left;
     margin-left: 2vw;
-    margin-right: 2vw;
+    #margin-right: 0vw;
     font-size: 10vw;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.46);
+}
+
+#seconds {
+    float: left;
+    #margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 3.3vw;
+    font-size: 6vw;
     font-weight: bold;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.46);
